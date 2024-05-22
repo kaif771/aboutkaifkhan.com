@@ -6,12 +6,13 @@
 }
 
 body {
-    background: #0364a1;
+   
     height: 605px;
     overflow-x: hidden;
+}
 
-
-
+.sec1nav{
+     background: #0364a1;
 }
 
 
