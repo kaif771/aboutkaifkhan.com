@@ -1,0 +1,2505 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    /* color: white; */
+
+}
+
+
+html,
+body {
+    overflow-x: hidden;
+
+}
+
+
+
+
+
+
+.sec1nav {
+    background: #0364a1;
+    width: 104vw;
+    margin-left: -2%;
+    height: 601px;
+}
+
+
+
+.manimage {
+    width: 26%;
+    margin-left: 2%;
+    height: 548px;
+}
+
+.navigation {
+    display: flex;
+    position: fixed;
+    top: 0%;
+    width: 104vw;
+    height: 4em;
+    z-index: 1;
+
+
+}
+
+.navchange {
+    background-color:rgb(4, 114, 218);
+    opacity: 0.98;
+}
+
+
+
+
+ul {
+    display: flex;
+    text-decoration: none;
+    list-style-type: none;
+    gap: 22%;
+    font-size: 19px;
+    margin-left: 16%;
+    margin-top: 1%;
+
+
+
+}
+
+.textofnav {
+    font-size: 23px;
+    margin-left: 10%;
+    margin-top: 1%;
+    color: white;
+
+}
+
+a {
+    text-decoration: none;
+    color: white;
+
+}
+
+.sec1text {
+    font-size: 23px;
+    position: absolute;
+    margin-top: -26%;
+    right: 29%;
+    font-size: xxx-large;
+    /* color: white; */
+}
+
+.hitext {
+    position: absolute;
+    margin-top: -28%;
+    right: 58%;
+    background: black;
+    height: 5%;
+    font-size: 14px;
+    width: 6%;
+    text-align: center;
+    padding-top: 7.1px;
+    border-radius: 9px;
+    /* color: white; */
+}
+
+.arrow {
+    height: 21px;
+    position: absolute;
+    right: 60%;
+    margin-top: 14.8%;
+}
+
+.para {
+
+    position: absolute;
+    margin-top: -14%;
+    right: 30.9%;
+}
+
+.para2 {
+    position: absolute;
+    margin-top: -11%;
+    right: 42.7%;
+}
+
+.button {
+    position: absolute;
+    margin-top: -7%;
+    right: 54.9%;
+    background: rgb(0, 0, 0);
+    font-size: 15px;
+    height: 32px;
+    padding-top: 1%;
+    width: 10%;
+    padding-left: 11px;
+    margin-right: -1%;
+    border-radius: 7px;
+
+}
+
+
+.man2 {
+    height: 500px;
+    margin-top: 7%;
+    margin-left: 9%;
+    margin-bottom: 0%;
+}
+
+.sec2about {
+    margin-left: 41%;
+    position: absolute;
+    width: fit-content;
+    margin-top: -34%;
+}
+
+.aboutsec2 {
+
+    background: rgb(0, 110, 255);
+    display: flex;
+    width: 99%;
+    height: 31px;
+    font-size: 16px;
+    padding-top: 5px;
+    padding-left: 11px;
+    border-radius: 5px;
+}
+
+
+.miniabus {
+    font-size: 41px;
+    margin-left: 41%;
+    position: absolute;
+    margin-top: -30%;
+}
+
+.para3 {
+    font-size: 17px;
+    margin-top: 3%;
+    line-height: 1.8;
+
+}
+
+.devyear {
+    font-size: 28px;
+    margin-top: 4%;
+}
+
+.devyear2 {
+    font-size: 17px;
+    margin-top: 3%;
+    line-height: 1.8;
+
+}
+
+.skillbutton {
+    background: rgb(0, 110, 255);
+    position: absolute;
+    margin-left: 49%;
+    margin-top: -34%;
+    display: flex;
+    width: 5%;
+    height: 31px;
+    font-size: 16px;
+    padding-top: 5px;
+    padding-left: 25px;
+    border-radius: 5px;
+}
+
+.miniskill {
+    font-size: 41px;
+    margin-left: 41%;
+    position: absolute;
+    margin-top: -30%;
+}
+
+.para4 {
+    font-size: 17px;
+    margin-top: 2%;
+}
+
+.scores {
+    margin-top: 5%;
+    font-size: 24px;
+}
+
+.prograssbar {
+    /* color: white; */
+    border: solid;
+    width: 41%;
+    position: absolute;
+    top: 104%;
+    border-radius: 4px
+}
+
+.number {
+    margin-left: 34%;
+    position: absolute;
+    top: 83%;
+    font-size: 21px;
+}
+
+.scores2 {
+    font-size: 23px;
+    margin-left: 57%;
+    position: absolute;
+    top: 77%;
+}
+
+.number2 {
+    margin-left: 93%;
+    position: absolute;
+    top: 78%;
+    font-size: 21px;
+}
+
+.prograssbar2 {
+    border: solid;
+    width: 43%;
+    border-radius: 4%;
+    margin-left: 57%;
+    position: absolute;
+    top: 104%;
+}
+
+.scores3 {
+    font-size: 24px;
+    position: absolute;
+    top: 139%;
+}
+
+.prograssbar3 {
+    border: solid;
+    width: 41%;
+    border-radius: 4%;
+    position: absolute;
+    top: 164%
+}
+
+.number3 {
+    font-size: 21px;
+    position: absolute;
+    top: 141%;
+    margin-left: 34%;
+}
+
+.scores4 {
+    font-size: 24px;
+    margin-left: 57%;
+    position: absolute;
+    top: 141%;
+}
+
+.prograssbar4 {
+    border: solid;
+    width: 43%;
+    border-radius: 4%;
+    position: absolute;
+    top: 164%;
+    margin-left: 57%;
+}
+
+.number4 {
+    font-size: 21px;
+    position: absolute;
+    top: 141%;
+    margin-left: 93%;
+}
+
+.hedsec3 {
+    text-align: center;
+    margin-top: 4%;
+    color: rgb(3, 255, 79);
+
+}
+
+.contantsec3 {
+    font-size: 40px;
+    line-height: 1.4;
+    text-align: center;
+    margin-top: 1%;
+
+}
+
+.web {
+    font-size: 24px;
+    text-align: center;
+    margin-top: 2%;
+    margin-left: 1%;
+}
+
+.grids {
+    font-size: 20px;
+    width: 23%;
+    text-align: center;
+    height: 228px;
+    padding-top: 4%;
+    background-color: rgba(69, 69, 82, 0.329);
+}
+
+.boxs {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 15%;
+    margin-top: 2%;
+
+}
+
+.wordpresspng {
+    height: 27px;
+    position: absolute;
+    margin-top: 1%;
+    border-radius: 21px;
+    margin-right: 0%;
+}
+
+.hostingerpng {
+    height: 27px;
+    position: absolute;
+    margin-top: 1%;
+    border-radius: 21px;
+    margin-left: 67%;
+}
+
+.desingpng {
+    height: 27px;
+    position: absolute;
+    margin-top: 1%;
+    border-radius: 21px;
+    margin-right: 67%;
+}
+
+.desingpara {
+    font-size: 29px;
+    margin-top: 7%;
+}
+
+.wordpresspara {
+    font-size: 25px;
+    margin-top: 7%;
+}
+
+.hostingerpara {
+    font-size: 26px;
+    margin-top: 5%;
+}
+
+.work {
+    font-weight: bold;
+    margin-top: -12%;
+    margin-left: 26%;
+    margin-bottom: 2%;
+}
+
+.contactlink {
+    color: rgb(0, 110, 255);
+
+}
+
+.thanknote {
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 26%;
+    margin-bottom: 2%;
+}
+
+.prices {
+    text-align: center;
+    margin-top: 5%;
+    color: rgb(3, 255, 79);
+}
+
+.pricelist {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 1.4;
+    text-align: center;
+    margin-top: 1%;
+}
+
+.grids2 {
+    font-size: 20px;
+    width: 23%;
+    text-align: center;
+    height: 331px;
+    padding-top: 1%;
+    background-color: rgba(69, 69, 82, 0.329);
+    font-weight: bold;
+}
+
+.box2 {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10%;
+    margin-top: 5%;
+}
+
+.realprice {
+    font-size: 50px;
+    font-weight: 600;
+    color: rgb(3, 255, 79);
+    margin-right: 8%;
+    margin-top: 1%;
+
+}
+
+sup {
+    font-size: 17px;
+    color: rgb(3, 255, 79);
+}
+
+.pricecontant {
+    font-size: 29px;
+    margin-top: 7%;
+    text-align: center;
+}
+
+.pricecontant2 {
+    font-size: 29px;
+    margin-top: 10%;
+    text-align: center;
+}
+
+.pricecontant3 {
+    font-size: 25px;
+    margin-top: 7%;
+    text-align: center;
+}
+
+.bloghed {
+    text-align: center;
+    color: rgb(3, 255, 79);
+    margin-bottom: 2%;
+    font-weight: bold;
+}
+
+.recentblog {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 1.4;
+}
+
+.whatiswebsite {
+    width: 36%;
+    margin-left: 12%;
+    margin-top: 6%;
+    margin-right: -2%;
+
+}
+
+.blogimgcontent {
+    margin-bottom: 3%;
+    background-color: rgba(69, 69, 82, 0.329);
+    width: 80%;
+    margin-left: 10%;
+    height: 647px;
+    margin-top: 2%;
+}
+
+.tipsofwebsite {
+    width: 29%;
+    margin-left: 10%;
+}
+
+.blogwebsite {
+    /* color: rgb(255, 255, 255); */
+    font-size: 30px;
+    font-weight: bold;
+    margin-right: 53%;
+    margin-top: 3%;
+    text-align: center;
+}
+
+.tipslittle {
+    font-size: 16px;
+    padding-right: 59%;
+    margin-top: 2%;
+    margin-left: 12%;
+    font-weight: bold;
+}
+
+.goodwebsite {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    margin-left: 51%;
+    margin-top: -14%;
+}
+
+.tipslittle2 {
+    padding-right: 7%;
+    margin-left: 57%;
+    margin-top: 2%;
+    font-weight: bold;
+}
+
+.contacthed {
+    text-align: center;
+    color: rgb(3, 255, 79);
+    margin-bottom: 2%;
+    margin-top: 2%;
+}
+
+.contactbig {
+    font-size: 36px;
+    font-weight: bold;
+    margin-left: 10%;
+    margin-bottom: 2%;
+}
+
+.contactsentance {
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 10%;
+    margin-bottom: 2%;
+}
+
+.information {
+    display: flex;
+    gap: 5%;
+    margin-left: 10%;
+    margin-bottom: 1%;
+    font-weight: bold;
+}
+
+.add {
+    margin-top: 13%;
+    font-weight: bold;
+}
+
+.emailadd {
+    margin-top: 13%;
+    font-weight: bold;
+}
+
+.phone {
+    margin-top: 22%;
+    font-weight: bold;
+}
+
+.forms {
+    margin-top: -10%;
+}
+
+input {
+    background-color: rgba(69, 69, 82, 0.329);
+    outline: none;
+    border: 1px solid rgba(69, 69, 82, 0.329);
+    height: 45px;
+    width: 75%;
+    margin-bottom: 5%;
+    font-size: 18px;
+
+}
+
+::placeholder {
+    font-size: 17px;
+}
+
+#area {
+    width: 75%;
+    font-size: 18px;
+    height: 68px;
+    outline: none;
+    border: 1px solid rgba(69, 69, 82, 0.329);
+    margin-bottom: 3%;
+    background-color: rgba(69, 69, 82, 0.329);
+}
+
+#submit {
+    font-size: 15px;
+    font-weight: bold;
+    background-color: darkgreen;
+    border-radius: 5px;
+
+}
+
+.footerhed {
+    font-size: 26px;
+    margin-left: 10%;
+    margin-bottom: 2%;
+    margin-top: 3%;
+    padding-top: 4%;
+}
+
+#footercontact {
+    background-color: rgb(0, 100, 0);
+    font-size: 17px;
+    width: 24%;
+    text-align: center;
+    height: 59px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    border-radius: 4px;
+    margin-top: 4%;
+
+}
+
+
+
+.bntcontact {
+    display: flex;
+    justify-content: end;
+    margin-right: 10%;
+    margin-top: -7%;
+}
+
+.allfoot {
+    background-color: rgb(0, 110, 255);
+    height: 143px;
+    margin-bottom: 4%;
+
+
+}
+
+.foot2 {
+    text-align: center;
+    margin-bottom: 3%;
+}
+
+.hams {
+    display: none;
+    position: absolute;
+    margin-top: 1%;
+}
+
+
+@media screen and (max-width:1350px) {
+
+    .hitext {
+        height: 32px;
+        margin-top: -34%;
+    }
+
+    .arrow {
+        margin-top: 13.2%;
+    }
+
+    .sec1text {
+        margin-top: -31%;
+    }
+
+    .para {
+        margin-top: -20%;
+    }
+
+    .para2 {
+        margin-top: -17%;
+        position: absolute;
+        right: 43.1%;
+    }
+
+    .button {
+        margin-top: -12%;
+        position: absolute;
+        right: 55.8%;
+    }
+
+    .manimage {
+        margin-top: 0%;
+    }
+
+    .sec2 {
+        margin-top: 1%;
+    }
+
+    .man2 {
+        height: 402px;
+        margin-top: 7%;
+    }
+
+    .grids {
+        height: 188px;
+        font-size: 17px;
+    }
+
+    .desingpara {
+        font-size: 24px;
+    }
+
+    .wordpresspara {
+        font-size: 24px;
+    }
+
+    .hostingerpara {
+        font-size: 24px;
+    }
+
+    .contantsec3 {
+        font-size: 35px;
+    }
+
+    .tipslittle2 {
+        font-size: 15px;
+    }
+
+    .blogimgcontent {
+        height: 549px;
+    }
+
+}
+
+@media screen and (max-width:1326px) {
+    .hitext {
+        margin-top: -35%;
+    }
+
+    .button {
+        width: 11%;
+        margin-right: -2%;
+    }
+
+    .wordpresspara {
+        font-size: 23px;
+    }
+}
+
+@media screen and (max-width:1301px) {
+    .arrow {
+        display: none;
+
+    }
+
+    .hitext {
+        display: none;
+    }
+
+}
+
+@media screen and (max-width:1280px) {
+    .hostingerpara {
+        font-size: 23px;
+    }
+
+    .blogimgcontent {
+        height: 566px;
+
+    }
+}
+
+@media screen and (max-width:1270px) {
+    .para2 {
+        margin-right: 0.5%;
+    }
+
+    .button {
+        margin-right: -0.3%;
+    }
+
+    .wordpresspara {
+        font-size: 22px;
+    }
+
+    .hostingerpara {
+        font-size: 22px;
+    }
+
+    .blogimgcontent {
+        height: 568px;
+    }
+
+}
+
+@media screen and (max-width:1192px) {
+
+
+    .para2 {
+        margin-right: 1.4%;
+    }
+
+    .button {
+        padding-right: 1%;
+        margin-left: 0.9%;
+    }
+
+    .sec1text {
+        margin-top: -33%;
+    }
+
+    .man2 {
+        margin-top: 2%;
+    }
+
+    .pricelist {
+        margin-top: 1%;
+    }
+
+    .prices {
+        margin-top: 11%;
+    }
+
+    .thanknote {
+        margin-top: 0%;
+    }
+
+
+    .boxs {
+        margin-top: 3%;
+    }
+
+    .web {
+        margin-top: 2%;
+    }
+
+    .contantsec3 {
+        margin-top: 1%;
+    }
+
+    .hedsec3 {
+        margin-top: 16%;
+    }
+
+    .pricecontant {
+        font-size: 28px;
+    }
+
+    .pricecontant2 {
+        font-size: 26px;
+    }
+
+    .pricecontant3 {
+        font-size: 22px;
+        padding: 6%;
+    }
+
+    .goodwebsite {
+        margin-top: -18%
+    }
+
+}
+
+@media screen and (max-width:1187px) {
+    .tipslink {
+        font-size: 27px;
+    }
+
+    .whatisweb {
+        font-size: 27px;
+    }
+
+}
+
+@media screen and (max-width:1175px) {
+    .button {
+        width: 13%;
+        text-align: center;
+    }
+
+    .skillbutton {
+        margin-left: 51%;
+    }
+}
+
+@media screen and (max-width:1135px) {
+    ul {
+        margin-left: 13%;
+    }
+
+
+}
+
+@media screen and (max-width:1103px) {
+    ul {
+        margin-left: 11%;
+    }
+
+    .para2 {
+        display: none;
+    }
+
+    .thanknote {
+        display: none;
+    }
+
+    .button {
+        margin-top: -14%;
+    }
+
+    .desingpara {
+        font-size: 22px;
+    }
+
+    .wordpresspara {
+        font-size: 20px;
+    }
+
+    .hostingerpara {
+        font-size: 20px;
+        padding-right: 0%;
+        text-align: center;
+    }
+
+    .pricecontant {
+        font-size: 27px;
+    }
+
+    .pricecontant2 {
+        font-size: 24px;
+    }
+
+    .pricecontant3 {
+        font-size: 20px;
+    }
+}
+
+
+
+@media screen and (max-width:1075px) {
+    ul {
+        margin-left: 12%;
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width:1050px) {
+    ul {
+        margin-left: 11%;
+    }
+
+    .sec1text {
+        margin-right: -5%;
+    }
+
+    .para {
+        margin-right: -4.4%;
+    }
+}
+
+@media screen and (max-width:1027px) {
+    ul {
+        margin-left: 8%;
+    }
+
+    .man2 {
+        margin-bottom: -5%;
+        margin-top: 6%;
+    }
+
+    .pricecontant {
+        font-size: 26px;
+    }
+
+    .pricecontant2 {
+        font-size: 25px;
+    }
+
+    .pricecontant3 {
+        font-size: 21px;
+    }
+}
+
+@media screen and (max-width:993px) {
+    ul {
+        font-size: 17px;
+    }
+
+    .sec1text {
+        font-size: 3rem;
+        margin-top: -35%;
+        margin-right: -9%;
+    }
+
+    .button {
+        width: 15%;
+        margin-right: -4%;
+    }
+
+    .para {
+        margin-right: -8.5%;
+    }
+
+    #miniabout {
+        font-size: 33px;
+    }
+
+    .para3 {
+        font-size: 15px;
+    }
+
+    .devyear {
+        font-size: 26px;
+    }
+
+    .devyear2 {
+        font-size: 15px;
+    }
+
+    .pricecontant {
+        font-size: 25px;
+    }
+
+    .pricecontant2 {
+        font-size: 23px;
+    }
+
+    .pricecontant3 {
+        font-size: 20px;
+    }
+
+    .forms {
+        display: flex;
+        flex-direction: column;
+        margin-top: 16%;
+        margin-left: -69%;
+    }
+
+    input {
+        width: 203%;
+        margin-left: -23%;
+    }
+
+    #area {
+        height: 41px;
+        width: 203%;
+        margin-left: -23%;
+    }
+
+
+}
+
+
+
+@media screen and (max-width:991px) {
+    .navigation {
+        background: #0667c3;
+        height: 50px;
+
+
+    }
+
+    .hams {
+        display: block;
+        margin-left: 66%;
+    }
+
+    ul {
+        flex-direction: column;
+        margin-top: 7%;
+        margin-left: -8%;
+        z-index: 1;
+        line-height: 0%;
+        font-size: 99%;
+        margin-bottom: 46px;
+    }
+
+    .v-class {
+        opacity: 0;
+    }
+
+}
+
+@media screen and (max-width:974px) {
+    .scores2 {
+        margin-left: 49%;
+    }
+
+    .number2 {
+        margin-left: 81%;
+    }
+
+    .prograssbar2 {
+        margin-left: 49%;
+    }
+
+    .scores4 {
+        margin-left: 49%;
+    }
+
+    .number4 {
+        margin-left: 81%;
+    }
+
+    .prograssbar4 {
+        margin-left: 49%;
+    }
+}
+
+@media screen and (max-width:940px) {
+    .button {
+        margin-right: -1%;
+    }
+
+    .skillbutton {
+        margin-left: 53%;
+        width: 7%;
+    }
+
+    .tipslittle2 {
+        font-size: 13px;
+    }
+
+    .tipslink {
+        font-size: 21px;
+    }
+
+}
+
+@media screen and (max-width:923px) {
+
+
+    input {
+        margin-left: -40%;
+    }
+
+    #area {
+        margin-left: -40%;
+    }
+
+    .pricecontant {
+        font-size: 21px;
+    }
+
+    .pricecontant2 {
+        font-size: 20px;
+    }
+
+    .pricecontant3 {
+        font-size: 17px;
+    }
+
+}
+
+@media screen and (max-width:900px) {
+    .sec1text {
+        margin-right: -14%;
+    }
+
+    .para {
+        margin-right: -13%;
+    }
+
+    .button {
+        margin-right: -4%;
+    }
+
+
+}
+
+@media screen and (max-width:874px) {
+    .man2 {
+        margin-bottom: -11%;
+    }
+
+    .add {
+        font-size: 15px;
+    }
+
+    .emailadd {
+        font-size: 15px;
+    }
+
+    .phone {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width:861px) {
+
+    .button {
+        width: 17%;
+    }
+
+    .hostingerpara {
+        font-size: 19px;
+    }
+
+    .web {
+        margin-top: 1%;
+    }
+
+    .contantsec3 {
+        margin-top: 5%;
+    }
+
+    .hedsec3 {
+        margin-top: 22%;
+    }
+
+    .man2 {
+        margin-bottom: -13%;
+    }
+
+}
+
+@media screen and (max-width:850px) {
+    #miniabout {
+        font-size: 29px;
+    }
+
+    .devyear {
+        font-size: 24px;
+    }
+
+    .wordpresspara {
+        font-size: 19px;
+    }
+
+    .forms {
+        width: 42%;
+    }
+
+    .man2 {
+        margin-left: 5%;
+    }
+}
+
+@media screen and (max-width:837px) {
+    .sec1text {
+        font-size: 39px;
+        margin-right: -11%;
+    }
+
+    .para {
+        margin-right: -21%;
+    }
+
+    .button {
+        margin-right: -10%;
+
+    }
+
+    .bntcontact {
+        margin-left: 9%;
+    }
+
+    .tipslink {
+        margin-top: 0%;
+    }
+
+
+}
+
+@media screen and (max-width:821px) {
+    .bntcontact {
+        margin-left: 13%;
+    }
+
+    .footerhed {
+        font-size: 21px;
+    }
+
+    .tipslink {
+        margin-top: -11%;
+        position: absolute;
+    }
+
+    .tipslittle2 {
+        margin-top: -23%;
+    }
+}
+
+@media screen and (max-width:810px) {
+    .number4 {
+        margin-left: 86%;
+    }
+}
+
+@media screen and (max-width:801px) {
+    .man2 {
+        margin-bottom: -16%;
+    }
+
+    .miniabus {
+        margin-top: -28%;
+    }
+
+
+    .hedsec3 {
+        margin-top: 29%;
+    }
+}
+
+@media screen and (max-width:786px) {
+    .devyear {
+        font-size: 21px;
+    }
+
+    .forms {
+        margin-top: 18%;
+        margin-top: 17%;
+        margin-left: -73%;
+    }
+
+    .grids {
+        font-size: 17px;
+        margin-top: 1%;
+    }
+
+    .desingpng {
+        height: 23px;
+        margin-top: 2%;
+    }
+
+
+    .wordpresspng {
+        height: 23px;
+        margin-top: 2%;
+    }
+
+    .hostingerpng {
+        height: 23px;
+        margin-top: 2%;
+    }
+}
+
+@media screen and (max-width:770px) {
+    .hams {
+        margin-left: 53%;
+    }
+
+    .sec1text {
+        font-size: 33px;
+
+    }
+
+    .para {
+        margin-right: -22%;
+        font-size: 14px;
+    }
+
+    .button {
+        margin-right: -14%;
+    }
+
+    .sec2 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .hedsec3 {
+        margin-top: 35%;
+    }
+
+    .sec2about {
+        margin-top: 72%;
+        margin-left: 7%;
+    }
+
+
+    .skill {
+        margin-top: 64%;
+        margin-left: -30%;
+
+    }
+
+    #miniabout {
+        margin-top: 37%;
+        margin-left: 7%;
+    }
+
+    .para3 {
+        font-size: 13px;
+    }
+
+    .miniskill {
+        margin-top: 78%;
+        margin-left: 7%;
+        font-size: 30px;
+    }
+
+
+    .para4 {
+        font-size: 14px;
+    }
+
+    .scores {
+        font-size: 17px
+    }
+
+    .scores2 {
+        font-size: 16px;
+        margin-top: 2%;
+    }
+
+    .scores3 {
+        font-size: 16px;
+        margin-top: 2%;
+    }
+
+    .scores4 {
+        font-size: 16px;
+        margin-top: 1%;
+    }
+
+    .man2 {
+        height: 400px;
+        width: 68%;
+        margin-left: 14%;
+    }
+
+    .work {
+        margin-bottom: 20%;
+        margin-left: 6%;
+    }
+
+    .boxs {
+        flex-direction: column;
+        width: 355%;
+        margin-left: 6%;
+
+    }
+
+    .desingpng {
+
+        flex-direction: column;
+    }
+
+    .desingpara {
+        text-align: left;
+        margin-top: 2%;
+        font-size: 18px;
+    }
+
+    .wordpresspara {
+        text-align: left;
+        margin-top: 2%;
+        font-size: 18px;
+    }
+
+    .hostingerpara {
+        text-align: left;
+        margin-top: 2%;
+        font-size: 18px;
+        padding-right: 10%;
+    }
+
+    .grids {
+        text-align: left;
+        font-size: 22px;
+        font-weight: 400;
+        padding-left: 2%;
+    }
+
+    .desingpng {
+        margin-top: -104%;
+        margin-left: 10%;
+        height: 74px;
+
+    }
+
+    .wordpresspng {
+        height: 74px;
+        margin-top: -17%;
+        margin-left: 10%;
+    }
+
+    .hostingerpng {
+        height: 74px;
+        margin-top: 66%;
+        margin-left: 11%;
+    }
+
+    .box2 {
+        margin-bottom: 20%;
+        flex-direction: column;
+        width: 355%;
+        margin-left: 9%;
+    }
+
+    .grids2 {
+        margin-top: 1%;
+    }
+
+    .pricecontant {
+        font-size: 19px;
+    }
+
+    .pricecontant2 {
+        font-size: 18px;
+    }
+
+    .pricecontant3 {
+        font-size: 18px;
+    }
+
+    .blogimgcontent {
+        display: flex;
+        margin-bottom: 20%;
+        flex-direction: column;
+        height: 1000px;
+    }
+
+    .tipsofwebsite {
+        width: 64%;
+        position: absolute;
+        margin-top: 63%;
+    }
+
+    .whatiswebsite {
+        width: 80%;
+    }
+
+    .tipslittle2 {
+        position: absolute;
+        margin-top: 108%;
+        margin-left: inherit;
+        padding-right: 20%;
+    }
+
+    .tipslink {
+        margin-top: 65%;
+        margin-left: -31%;
+    }
+
+    .whatisweb {
+        margin-left: 22%;
+    }
+
+    .tipslittle {
+        position: inherit;
+        padding-right: 0%;
+    }
+
+    .information {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .inform {
+        font-size: 20px
+    }
+
+    .add {
+        font-size: 14px;
+        margin: 0px;
+        padding-bottom: 5%;
+        padding-top: 2%;
+
+    }
+
+    .inform2 {
+        font-size: 20px;
+    }
+
+    .emailadd {
+        font-size: 14px;
+        margin: 0px;
+        padding-bottom: 5%;
+        padding-top: 2%;
+    }
+
+    .inform3 {
+        font-size: 20px;
+    }
+
+    .phone {
+        font-size: 14px;
+        margin: 0px;
+        padding-bottom: 5%;
+        padding-top: 2%;
+    }
+
+    .forms {
+        margin-left: 18%;
+        margin-top: 3%;
+    }
+
+    .footerhed {
+        text-align: center;
+        margin-left: 0%;
+    }
+
+    .bntcontact {
+        margin-top: -1%;
+        margin-right: 21%;
+    }
+
+    #footercontact {
+        width: 86%;
+    }
+
+}
+
+@media screen and (max-width:762px) {
+    .whatisweb {
+        font-size: 25px;
+    }
+
+    .desingpng {
+        height: 54px;
+    }
+
+    .wordpresspng {
+        height: 54px;
+    }
+
+    .hostingerpng {
+        height: 54px;
+    }
+}
+
+@media screen and (max-width:759px) {
+    .button {
+        width: 21%;
+        margin-right: -17%;
+    }
+}
+
+@media screen and (max-width:710px) {
+    .sec2about {
+        margin-top: 76%;
+    }
+
+    .whatisweb {
+        font-size: 22px;
+    }
+
+}
+
+@media screen and (max-width:682px) {
+    .miniskill {
+        margin-top: 85%;
+    }
+
+    .skill {
+        margin-top: 61%;
+    }
+
+    .desingpng {
+        margin-bottom: 11%;
+    }
+}
+
+@media screen and (max-width:633px) {
+    .miniskill {
+        margin-top: 96%;
+    }
+
+    .skill {
+        margin-top: 64%;
+    }
+}
+
+@media screen and (max-width:680px) {
+    .tipslittle {
+        font-size: 14px;
+    }
+
+    .desingpng {
+        height: 35px;
+        margin-bottom: 7%
+    }
+
+    .wordpresspng {
+        height: 35px;
+        margin-bottom: 4%
+    }
+
+    .hostingerpng {
+        height: 35px;
+        margin-bottom: -4%
+    }
+
+    .sec2about {
+        margin-top: 79%;
+    }
+
+}
+
+@media screen and (max-width:633px) {
+    .sec1text {
+        margin-right: -13%;
+        font-size: 30px;
+        margin-top: -55%;
+    }
+
+    .para {
+        margin-right: -26%;
+        margin-top: -40%;
+        font-size: 13px;
+    }
+
+    .button {
+        margin-top: -34%;
+        margin-right: -15%;
+    }
+
+    .hams {
+        margin-left: 45%;
+        margin-top: 2%;
+    }
+
+    ul {
+        margin-top: 10%;
+        margin-left: -15%;
+    }
+
+    .sec2about {
+        margin-top: 83%;
+    }
+
+    .desingpng {
+        margin-bottom: 15%;
+    }
+
+    .contantsec3 {
+        font-size: 28px;
+    }
+
+
+}
+
+@media screen and (max-width:622px) {
+    .sec2about {
+        margin-top: 84%;
+    }
+
+
+}
+
+
+@media screen and (max-width:621px) {
+    .whatisweb {
+        font-size: 20px;
+    }
+
+
+    .tipslittle {
+        font-size: 15px;
+    }
+
+}
+
+@media screen and (max-width:615px) {
+    .button {
+        font-size: 12px;
+        text-align: center;
+        padding-top: 2%;
+    }
+
+    .sec2about {
+        margin-top: 85%;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .sec2about {
+        margin-top: 87%;
+    }
+
+    .desingpng {
+        margin-bottom: 17%;
+    }
+
+
+
+
+    .tipslittle2 {
+        margin-top: 113%;
+    }
+}
+
+
+@media screen and (max-width:580px) {
+    .sec2about {
+        margin-top: 92%;
+    }
+
+    .skill {
+        margin-left: -25%;
+        margin-top: 67%;
+    }
+
+
+    .desingpng {
+        height: 34px;
+        margin-bottom: 25%;
+    }
+
+    .wordpresspng {
+        height: 34px;
+        margin-bottom: 10%;
+    }
+
+    .whatisweb {
+        font-size: 18px;
+    }
+
+    .miniskill {
+        margin-top: 101%;
+    }
+
+    .skillbutton {
+        padding-right: 2%;
+    }
+
+
+
+
+}
+
+
+@media screen and (max-width:530px) {
+    .manimage {
+        opacity: 0;
+    }
+
+    .sec1text {
+        position: absolute;
+        left: 7%;
+    }
+
+    .para {
+        margin-top: -35%;
+        position: absolute;
+        left: 7%;
+    }
+
+    .button {
+        margin-top: -28%;
+        width: 71%;
+        margin-right: -37%;
+    }
+
+    .sec2about {
+        margin-top: 96%;
+    }
+
+    .desingpng {
+        margin-bottom: 34%;
+    }
+
+    .miniskill {
+        margin-top: 111%;
+    }
+
+    .skill {
+        margin-top: 64%;
+    }
+
+
+
+
+
+}
+
+@media screen and (max-width:508px) {
+    .whatisweb {
+        font-size: 1rem;
+    }
+
+    .tipslittle {
+        font-size: 1rem;
+    }
+
+    .tipslittle2 {
+        margin-top: 119%;
+    }
+
+    .tipslink {
+        margin-top: 57%;
+    }
+
+    .sec2about {
+        margin-top: 100%;
+    }
+
+    .desingpng {
+        margin-bottom: 40%;
+    }
+
+    .wordpresspng {
+        margin-bottom: 19%;
+    }
+
+}
+
+
+
+@media screen and (max-width:480px) {
+    .hedsec3 {
+        margin-top: 102%;
+    }
+
+    .tipslittle {
+        font-size: 13px;
+    }
+
+    .tipslink {
+        margin-top: 64%;
+    }
+
+    .hostingerpng {
+        margin-top: 73%;
+    }
+
+    .sec2about {
+        margin-top: 104%;
+    }
+
+    .skillbutton {
+        padding-right: 4%;
+    }
+
+
+}
+
+@media screen and (max-width:454px) {
+    .skillbutton {
+        margin-top: -38%;
+        margin-left: 59%;
+        padding-right: 6%;
+    }
+}
+
+@media screen and (max-width:453px) {
+    .skill {
+        margin-top: 60%;
+        margin-left: -22%;
+    }
+
+    .skillbutton {
+        padding-right: 6%;
+        margin-top: -34%;
+    }
+}
+
+@media screen and (max-width:452px) {
+    .skillbutton {
+        margin-top: -34%;
+        margin-left: 59%;
+        padding-right: 6%;
+    }
+
+    .desingpng {
+        margin-bottom: 49%;
+    }
+}
+
+@media screen and (max-width:451px) {
+    .sec2about {
+        margin-top: 105%;
+    }
+
+    .skillbutton {
+        margin-left: 57%;
+        margin-top: -34%;
+        padding-right: 6%;
+
+    }
+
+    .desingpng {
+        margin-bottom: 53%;
+    }
+
+    .whatisweb {
+        margin-right: -3%;
+    }
+
+    .tipslittle {
+        padding-right: 3%;
+    }
+
+}
+
+@media screen and (max-width:444px) {
+    .miniskill {
+        margin-top: 122%;
+
+    }
+
+    .skillbutton {
+        margin-top: -35%;
+    }
+
+    .para3 {
+        padding-right: 5%;
+    }
+
+    .tipsofwebsite {
+        margin-top: 67%;
+    }
+
+    .tipslink {
+        margin-top: 67%;
+    }
+
+    .tipslittle2 {
+        margin-top: 130%;
+    }
+
+    .allfoot {
+        width: 99%;
+        margin-left: 3px;
+    }
+
+
+
+    .number {
+        margin-left: 64%;
+    }
+
+    .number3 {
+        margin-left: 64%;
+    }
+
+    .prograssbar {
+        width: 77%;
+    }
+
+    .prograssbar3 {
+        width: 77%;
+    }
+
+    .pricelist {
+        font-size: 29px;
+    }
+
+    .scores2 {
+        margin-top: 45%;
+        margin-left: 0%;
+    }
+
+    .number2 {
+        margin-left: 64%;
+        margin-top: 44%;
+    }
+
+    .prograssbar2 {
+        margin-left: 0%;
+        margin-top: 44%;
+        width: 77%;
+    }
+
+    .scores4 {
+        opacity: 0;
+
+    }
+
+    .number4 {
+        opacity: 0;
+    }
+
+    .prograssbar4 {
+        opacity: 0;
+    }
+
+    .para4 {
+        font-size: 14px;
+    }
+
+    .devyear {
+        font-size: 20px;
+    }
+
+
+
+
+
+}
+
+@media screen and (max-width:435px) {
+    .sec1text {
+        margin-top: -75%;
+    }
+
+    .para {
+        margin-top: -52%;
+    }
+
+    .button {
+        margin-top: -43%;
+    }
+
+    ul {
+        margin-top: 13%;
+    }
+
+    .sec2about {
+        margin-top: 108%;
+    }
+
+
+
+    .whatisweb {
+        margin-right: -4%;
+    }
+
+    .skillbutton {
+        margin-top: -34%;
+    }
+
+
+}
+
+
+
+@media screen and (max-width:429px) {
+    .desingpng {
+        height: 27px;
+        margin-bottom: 59%;
+    }
+
+    .wordpresspng {
+        height: 27px;
+    }
+
+    .hostingerpng {
+        height: 27px;
+        margin-top: 79%;
+    }
+
+    .whatisweb {
+        margin-right: -12%;
+    }
+
+    .devyear {
+        font-size: 19px;
+    }
+
+
+    .skillbutton {
+        margin-top: -35%;
+    }
+
+    .contantsec3 {
+        font-size: 25px;
+    }
+
+    .work {
+        font-size: 17px;
+    }
+
+    .recentblog {
+        font-size: 34px;
+    }
+
+    .contactsentance {
+        font-size: 17px;
+    }
+
+
+}
+
+
+@media screen and (max-width:414px) {
+    .skillbutton {
+        margin-top: -39%;
+    }
+}
+
+@media screen and (max-width:412px) {
+    .skillbutton {
+        margin-top: -39%;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .sec1text {
+        margin-left: -2%;
+        margin-top: -85%;
+    }
+
+    .para {
+        margin-left: -1%;
+        margin-top: -59%;
+    }
+
+    .sec2about {
+        margin-top: 115%;
+    }
+
+    .desingpng {
+        margin-bottom: 68%;
+    }
+
+    .wordpresspng {
+        margin-bottom: 26%;
+    }
+
+    .hostingerpng {
+        margin-top: 81%;
+    }
+
+    .tipslittle2 {
+        margin-top: 124%;
+    }
+
+
+    .hams {
+        margin-left: 136px;
+        position: absolute;
+    }
+
+    .miniskill {
+        margin-top: 129%;
+    }
+
+
+    .skillbutton {
+        margin-top: -35%;
+    }
+}
+
+
+
+@media screen and (max-width:395px) {
+    .tipslittle2 {
+        margin-top: 132%;
+    }
+
+    .tipslink {
+        margin-top: 60%;
+    }
+
+    .skillbutton {
+        margin-top: -36%;
+    }
+
+
+}
+
+@media screen and (max-width:393px) {
+    .skillbutton {
+        margin-top: -37%;
+    }
+}
+
+@media screen and (max-width:390px) {
+    .whatisweb {
+        margin-right: -22%;
+    }
+
+    .tipslink {
+        font-size: 19px;
+        margin-top: 64%;
+    }
+
+    .contactsentance {
+        font-size: 16px;
+    }
+
+    .skillbutton {
+        margin-top: -38%;
+    }
+
+    .scores2 {
+        margin-top: 53%;
+    }
+
+    .number2 {
+        margin-top: 51%;
+    }
+
+    .prograssbar2 {
+        margin-top: 51%;
+    }
+}
+
+@media screen and (max-width:389px) {
+    .sec1text {
+        font-size: 29PX;
+    }
+
+    .sec2about {
+        margin-top: 119%;
+    }
+
+    .whatisweb {
+        margin-right: -23%;
+    }
+
+    .tipslink {
+        font-size: 19px;
+        margin-top: 61%;
+    }
+
+    .skillbutton {
+        margin-top: -34%;
+    }
+}
+
+@media screen and (max-width: 385px) {
+    .skillbutton {
+        margin-top: -35%;
+    }
+}
+
+@media screen and (max-width:384px) {
+    .skillbutton {
+        margin-top: -35%;
+    }
+
+    .scores2 {
+        margin-top: 53%;
+    }
+
+    .number2 {
+        margin-top: 51%;
+    }
+
+    .prograssbar2 {
+        margin-top: 51%;
+    }
+
+    .desingpng {
+        margin-bottom: 73%;
+    }
+}
+
+@media screen and (max-width:376px) {
+    .sec1text {
+        font-size: 27px;
+    }
+
+    .sec2about {
+        margin-top: 122%;
+    }
+
+    .contantsec3 {
+        font-size: 22px;
+    }
+
+    .desingpng {
+        margin-bottom: 79%;
+        height: 26px;
+    }
+
+    .wordpresspng {
+        margin-bottom: 32%;
+        height: 26px;
+    }
+
+    .pricelist {
+        font-size: 28px;
+    }
+
+    .recentblog {
+        font-size: 29px;
+    }
+
+    .tipsofwebsite {
+        margin-top: 67%;
+    }
+
+    .tipslink {
+        margin-top: 63%;
+    }
+
+    .miniskill {
+        margin-top: 142%;
+    }
+}
+
+@media screen and (max-width: 364px) {
+    .skillbutton {
+        margin-top: -38%;
+    }
+}
+
+
+
+@media screen and (max-width:362px) {
+    .hams {
+        margin-left: 32%;
+    }
+
+    .sec2about {
+        margin-top: 127%;
+    }
+
+    .devyear {
+        font-size: 19px;
+    }
+
+    .tipslittle {
+        font-size: 12px;
+    }
+
+    .tipslink {
+        font-size: 17px;
+    }
+
+    .scores2 {
+        margin-top: 53%;
+    }
+
+    .number2 {
+        margin-top: 51%;
+    }
+
+    .prograssbar2 {
+        margin-top: 51%;
+    }
+
+    .skillbutton {
+        margin-top: -34%;
+    }
+
+    .hostingerpng {
+        margin-top: 87%;
+    }
+
+    .hedsec3 {
+        margin-top: 120%;
+    }
+}
+
+
+@media screen and (max-width: 351px) {
+    .skillbutton {
+        margin-top: -37%;
+    }
+}
+
+@media screen and (max-width:350px) {
+    .sec1text {
+        font-size: 25px
+    }
+
+    .hedsec3 {
+        margin-top: 120%;
+    }
+
+    .skill {
+        margin-top: 62%;
+    }
+
+    .skillbutton {
+        padding-right: 8%;
+        margin-top: -39%;
+    }
+
+    .para4 {
+        font-size: 12px;
+    }
+
+    .scores2 {
+        margin-top: 53%;
+    }
+
+    .number2 {
+        margin-top: 51%;
+    }
+
+    .prograssbar2 {
+        margin-top: 51%;
+    }
+
+    .desingpng {
+        margin-bottom: 89%;
+    }
+
+    .hostingerpng {
+        margin-top: 86%;
+    }
+
+    .tipslink {
+        font-size: 17px;
+    }
+
+    .whatisweb {
+        margin-right: -24%;
+    }
+
+    .tipslittle2 {
+        margin-top: 130%
+    }
+
+    .contactsentance {
+        font-size: 17px;
+    }
+
+
+}
